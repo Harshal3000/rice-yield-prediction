@@ -879,7 +879,7 @@ with tab4:
         hum_status = "✅ Optimal" if 60 <= last['humidity'] <= 80 else "⚠️ Needs Adjustment"
         
         st.markdown(f"""
-        <div style='background: #f0f2f6; padding: 1rem; border-radius: 10px;'>
+        <div style='background: #f0f2f6; padding: 1rem; border-radius: 10px; color: black;'>
             <strong>📊 Your Inputs Analysis:</strong><br><br>
             🌡️ Temperature: {last['temperature']}°C → {temp_status}<br>
             ☔ Rainfall: {last['rainfall']}mm → {rain_status}<br>
